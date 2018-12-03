@@ -3,21 +3,17 @@ body {
 }
 
 main {
-    /*border: 2px solid black;*/
     margin-top: 56px;
-    margin-left: 213px;
-    padding-left: 38px;
+    margin-left: 189px;
+    padding-left: 9px;
 }
 
 .header {
-    /*display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 21px 21px;*/
     padding-top: 23px;
     position: fixed;
     top: 0;
     right: 0;
-    width: 80%;
+    width: 84%;
 }
 
 .header__searchbox {
@@ -29,7 +25,6 @@ main {
     display: inline-block;
     min-width: 13px;
     padding-right: 2%;
-    /*width: 4%;*/
 }
 
 .searchbox__text {
@@ -42,18 +37,14 @@ main {
     color: #b6bdd2;
     font-weight: 300;
     font-size: 14px;
-    font-weight: 300;
     line-height: 58px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .profile {
     text-decoration: none;
     color: #364760;
     vertical-align: text-bottom;
-
-    color: #364760;
-    font-family: "Open Sans";
     font-size: 13px;
     font-weight: 400;
     line-height: 26px;
@@ -72,13 +63,13 @@ main {
 .sidebar {
     background-color: #444c63;
     height: 100%;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 2%;
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 155px;
-    width: 15%;
+    min-width: 166.906px;
+    width: 13%;
 }
 
 .sidebar__item {
