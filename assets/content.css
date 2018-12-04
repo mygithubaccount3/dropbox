@@ -1,15 +1,9 @@
 .portfolio-title {
     color: #364760;
-    font-family: "Open Sans";
+    font-family: "Open Sans, sans-serif";
     font-size: 20px;
     font-weight: 300;
     line-height: 58px;
-}
-
-.wrapper {
-    /*display: flex;
-    justify-content: space-between;*/
-    width: 100%;
 }
 
 .edit,
@@ -20,34 +14,31 @@
 
 .edit {
     display: inline-block;
-    /*justify-content: space-between;*/
-    width: 48%;
-    min-width: 97px;
     max-height: 20px;
+    min-width: 97px;
+    width: 48%;
 }
 
 .sort {
+    display: inline-block;
     font-size: 12px;
     line-height: 20px;
     padding: 5px;
-    display: inline-block;
-    /*justify-content: space-between;*/
-    width: 49%;
-    text-align: end;
     vertical-align: bottom;
+    text-align: end;
+    width: 49%;
 }
 
 .sort__by {
-    text-align: center;
     min-width: 34.875px;
+    text-align: center;
     width: 5%;
 }
 
 .sort__by--selected {
+    background-color: #444c63;
     border: 1px solid #444c63;
     border-radius: 3px;
-    background-color: #444c63;
-
     color: #ffffff;
     font-weight: bold;
 }
@@ -60,8 +51,8 @@
 .separator {
     border: 0.5px solid #f3f3f3;
     display: inline-block;
-    width: 94.5%;
     vertical-align: top;
+    width: 94.5%;
 }
 
 .portfolio {
@@ -72,12 +63,12 @@
     grid-row-gap: 10px;
 }
 
-.portfolio > img {
-    width: 100%;
+.portfolio__item {
     height: 100%;
+    width: 100%;
 }
 
-.row {
+.portfolio__item--stretched {
     grid-column-start: 1;
     grid-column-end: 6;
 }
